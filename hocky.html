@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Javascript</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|Ubuntu+Mono|VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lesson3.css">
+</head>
+<body>
+    <script src="lesson3.js"></script>
+    <div class="whole">
+        <div class="block">
+            <div class="title big">HOME</div>
+            <div class="homescore big">0</div>
+        </div>
+        <div class="block">
+            <div class="time">00:00</div>
+            <div class="period_block">
+                <div class="period_text">PERIOD</div>
+                <div class="period_time">1</div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title big">GUEST</div>
+            <div class="guestscore big">0</div>
+        </div>
+        <div class="block">
+            <div class="title mid">Player Penalty</div>
+            <div class="homepenalty mid"></div>
+        </div>
+        <div class="block">
+
+        </div>
+        <div class="block">
+            <div class="title mid">Player Penalty</div>
+            <div class="guestpenalty mid"></div>
+        </div>
+        <div class="button1">
+            <button class="a1" onclick="homeadd()">home team +1</button>
+            <button class="a2" onclick="homeminus()">home team -1</button>
+            <button class="a3" onclick="guestadd()">guest team +1</button>
+            <button class="a4" onclick="guestminus()">guest team -1</button>
+        </div>
+        <div class="button1">
+            <button class="a5" onclick="periodChange()">change period</button><br>
+        </div>
+        <div class="button1">
+            <button class="b1" onclick="homepenaltyadd()">home team Penalty</button>
+            <button class="b2" onclick="homepenaltyremove()">home team Penalty Remove</button>
+            <button class="a3" onclick="guestpenaltyadd()">guest team Penalty</button>
+            <button class="a4" onclick="guestpenaltyremove()">guest team Penalty Remove</button>
+        </div>
+        <div class="button1">
+            <button class="a5 a6" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+</html>

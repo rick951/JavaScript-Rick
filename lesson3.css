@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.whole{
+    width: 100vw;
+    height: 70vh;
+    /* border: 3px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.block{
+    width: 33.3%;
+    height: 35vh;
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: white;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+.big{
+    font-size: 10vh;
+}
+.mid{
+    font-size: 6vh;
+}
+.homescore{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 10vh;
+    margin-bottom: 3vh;
+    text-align: end;
+}
+.guestscore{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 10vh;
+    margin-bottom: 3vh;
+    text-align: end;
+}
+.homepenalty{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 20vh;
+    text-align: end;
+}
+.guestpenalty{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 20vh;
+    text-align: end;
+}
+.time{
+    border: 0.3vh white solid;
+    width: 80%;
+    height: 10vh;
+    margin-bottom: 0vh;
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+}
+.period_block{
+    width: 33vw;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.period_text{
+    color: white;
+    font-size: 5vh;
+    margin-right: 1vw;
+}
+.period_time{
+    background-color: black;
+    color: white;
+    width: 10%;
+    height: 5vh;
+    text-align: end;
+    font-size: 5vh;
+    text-align: center;
+}
+.button1{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+button{
+    margin-left: 2vw;
+    margin-right:2vw;
+}
+.a1{
+    margin-left: 9vw;
+}
+.b1{
+    margin-left: 6vw;
+}
+.a2{
+    margin-right: 49vw;
+}
+.b2{
+    margin-right: 40vw;
+}
+.a5{
+    margin-left: 45vw;
+}
+.a6{
+    margin-left: 47vw;
+}
