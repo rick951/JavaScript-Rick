@@ -19,5 +19,4 @@ function addMovie(){
     document.querySelector(".movie_picture4").innerHTML = `<img class="fit" src="${movie_picture[3]}">`;
     document.querySelector(".movie_picture5").innerHTML = `<img class="fit" src="${movie_picture[4]}">`;
 
-
 }
