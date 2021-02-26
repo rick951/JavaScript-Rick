@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="whole">
+    <div class="top">Movie Theatre</div>
+    <div class="mid">
+        <div class="movie big">
+            <div class="movie_name1 aa">3 idiot</div>
+            <div class="movie_picture1 bb big_picture"><img class="fit" src="https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"></div>
+        </div>
+        <div class="movie small">
+            <div class="movie_name2 aa">demon slayer</div>
+            <div class="movie_picture2 bb"><img class="fit" src="http://cdn.shopify.com/s/files/1/0367/9101/products/A2Poster_grande.jpg?v=1605513807"></div>
+        </div>
+        <div class="movie small">
+            <div class="movie_name3 aa">Avenger: end game</div>
+            <div class="movie_picture3 bb"><img class="fit" src="https://images-na.ssl-images-amazon.com/images/I/81%2BNup8-8NL._SL1500_.jpg"></div>
+        </div>
+        <div class="movie small">
+            <div class="movie_name4 aa">stand by me 2</div>
+            <div class="movie_picture4 bb"><img class="fit" src="https://animeanime.global/wp-content/uploads/2020/10/361169.jpg"></div>
+        </div>
+        <div class="movie small">
+            <div class="movie_name5 aa">frozen 2</div>
+            <div class="movie_picture5 bb"><img class="fit" src="https://cdn.europosters.eu/image/750/posters/frozen-2-woods-i81804.jpg"></div>
+        </div>
+    </div>
+    <div class="bottem">
+        <div class="add_movie">
+            <input class="input_name" placeholder="movie name">
+            <input class="input_picture" placeholder="movie poster address">
+            <button class="button" onclick="addMovie()">add movie</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+}
+
+.whole{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+.top{
+    width: 100%;
+    font-size: 8vh;
+    height: 10vh;
+    color: rgb(255, 208, 0);
+
+}
+.mid{
+    width: 90vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bottem{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    height: 77vh;
+    width: 30vw;
+}
+.small{
+    height: 37.5vh;
+    width: 20vw;
+}
+.movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+    /* border: black solid 3px; */
+    margin: 1vh;
+}
+.aa{
+    width: 100%;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 700;
+    color: white;
+}
+.bb{
+    width: 80%;
+    height: 85%;
+    /* border: black solid 1px; */
+}
+.fit{
+    height: 100%;
+}
+</style>
+<script src="movie_theatre.js"></script>
